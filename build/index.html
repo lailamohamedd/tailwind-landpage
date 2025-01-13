@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Homi Project by Tailwindcss" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Tailwind" />
+    <meta name="author" content="Laila Abdellatif Mohamed" />
+    <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&family=Bebas+Neue&family=Euphoria+Script&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Homi</title>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div
+      style="background-image: url('imgs/bg.avif')"
+      class="bg-brand-dark px-7 pt-7 pb-48 flex flex-col gap-28 bg-center bg-cover md:px-12 xl:px-28"
+    >
+      <!-- Header -->
+      <div class="flex flex-row justify-between items-center">
+        <img class="w-[40px]" src="imgs/logo.png" alt="logo" srcset="" />
+        <div class="flex flex-row gap-3">
+          <a href="">
+            <iconify-icon
+              class="text-white border border-white p-1.5 text-base rounded-full"
+              icon="mdi:home"
+              noobserver
+            ></iconify-icon>
+          </a>
+          <a href="">
+            <iconify-icon
+              class="text-white border border-white p-1.5 text-base rounded-full"
+              icon="mdi:add-shopping-cart"
+              noobserver
+            ></iconify-icon>
+          </a>
+          <a href="">
+            <iconify-icon
+              class="text-white border border-white p-1.5 text-base rounded-full"
+              icon="mdi:search"
+              noobserver
+            ></iconify-icon>
+          </a>
+        </div>
+      </div>
+      <!-- Hero Content -->
+      <div
+        class="flex flex-col items-center gap-5 sm:mx-20 md:mx-28 lg-mx-40 xl:mx-60"
+      >
+        <h1
+          class="font-sans text-white uppercase text-3xl font-bold text-center xl:text-6xl"
+        >
+          shop luxury sofas
+        </h1>
+        <p
+          class="font-sans text-brand-light text-base font-normal text-center xl:mx-32"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nulla
+          reprehenderit fugit cupiditate exercitationem corporis sint libero aut
+          recusandae consequatur inventore tempora, eius provident adipisci!
+          Mollitia quaerat doloribus ad voluptatum!
+        </p>
+        <a href=""
+          ><button
+            class="bg-brand-mode py-2 px-5 font-sans text-white text-base font-normal uppercase rounded-md"
+          >
+            Visit Shop
+          </button></a
+        >
+      </div>
+    </div>
+    <!-- features section -->
+    <div
+      class="px-7 py-20 bg-brand-dark flex flex-col items-center gap-10 md:px-12 lg:px-20 xl:px-28"
+    >
+      <h2 class="font-sans font-semibold text-3xl uppercase text-white">
+        features
+      </h2>
+      <div class="grid grid-cols-1 gap-7 sm:grid-cols-2 xl:grid-cols-3">
+        <div
+          class="flex flex-col items-center gap-4 border border-brand-mode rounded-md p-7"
+        >
+          <iconify-icon
+            class="text-brand-mode text-5xl"
+            icon="mdi:check-circle"
+            noobserver
+          ></iconify-icon>
+          <h3
+            class="font-sans font-semibold text-2xl uppercase text-white text-center"
+          >
+            quality
+          </h3>
+          <p
+            class="font-sans font-normal text-base text-brand-light text-center"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            minima aspernatur, enim doloremque architecto reprehenderit
+            excepturi quam eius cupiditate fugit!
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center gap-4 border border-brand-mode rounded-md p-7"
+        >
+          <iconify-icon
+            class="text-brand-mode text-5xl"
+            icon="mdi:clock"
+            noobserver
+          ></iconify-icon>
+          <h3
+            class="font-sans font-semibold text-2xl uppercase text-white text-center"
+          >
+            durable
+          </h3>
+          <p
+            class="font-sans font-normal text-base text-brand-light text-center"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            minima aspernatur, enim doloremque architecto reprehenderit
+            excepturi quam eius cupiditate fugit!
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center gap-4 border border-brand-mode rounded-md p-7"
+        >
+          <iconify-icon
+            class="text-brand-mode text-5xl"
+            icon="mdi:check-circle"
+            noobserver
+          ></iconify-icon>
+          <h3
+            class="font-sans font-semibold text-2xl uppercase text-white text-center"
+          >
+            massage
+          </h3>
+          <p
+            class="font-sans font-normal text-base text-brand-light text-center"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            minima aspernatur, enim doloremque architecto reprehenderit
+            excepturi quam eius cupiditate fugit!
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center gap-4 border border-brand-mode rounded-md p-7"
+        >
+          <iconify-icon
+            class="text-brand-mode text-5xl"
+            icon="mdi:chair"
+            noobserver
+          ></iconify-icon>
+          <h3
+            class="font-sans font-semibold text-2xl uppercase text-white text-center"
+          >
+            comfort
+          </h3>
+          <p
+            class="font-sans font-normal text-base text-brand-light text-center"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            minima aspernatur, enim doloremque architecto reprehenderit
+            excepturi quam eius cupiditate fugit!
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center gap-4 border border-brand-mode rounded-md p-7"
+        >
+          <iconify-icon
+            class="text-brand-mode text-5xl"
+            icon="mdi:grid"
+            noobserver
+          ></iconify-icon>
+          <h3
+            class="font-sans font-semibold text-2xl uppercase text-white text-center"
+          >
+            laxury
+          </h3>
+          <p
+            class="font-sans font-normal text-base text-brand-light text-center"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            minima aspernatur, enim doloremque architecto reprehenderit
+            excepturi quam eius cupiditate fugit!
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center gap-4 border border-brand-mode rounded-md p-7"
+        >
+          <iconify-icon
+            class="text-brand-mode text-5xl"
+            icon="mdi:folder"
+            noobserver
+          ></iconify-icon>
+          <h3
+            class="font-sans font-semibold text-2xl uppercase text-white text-center"
+          >
+            foldable
+          </h3>
+          <p
+            class="font-sans font-normal text-base text-brand-light text-center"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            minima aspernatur, enim doloremque architecto reprehenderit
+            excepturi quam eius cupiditate fugit!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- launch section -->
+    <div class="px-7 py-10 bg-brand-dark md:px-12 lg:px-20 xl:px-28 xl:pt-40">
+      <div
+        class="bg-brand-darker px-6 pt-12 pb-1 rounded-md flex flex-col items-center gap-12 sm:px-28 sm:pt-14 sm:pb-5 xl:flex-row xl:justify-between xl:px-14 xl:py-5"
+      >
+        <div
+          class="flex flex-col items-center gap-4 xl:items-start xl:basis-3/5"
+        >
+          <h2
+            class="font-sans text-white uppercase text-2xl font-bold text-center xl:text-start xl:text-5xl"
+          >
+            launching soon
+          </h2>
+          <p
+            class="font-sans text-brand-light text-base font-normal text-cente xl:text-start"
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+            nulla reprehenderit fugit cupiditate exercitationem corporis sint
+            libero aut recusandae consequatur inventore tempora, eius provident
+            adipisci! Mollitia quaerat doloribus ad voluptatum!
+          </p>
+          <a href=""
+            ><button
+              class="bg-brand-mode py-2 px-5 font-sans text-white text-base font-normal uppercase rounded-md"
+            >
+              Visit Shop
+            </button></a
+          >
+        </div>
+        <img
+          src="imgs/logo.png"
+          class="w-16 xl:basis-2/5 xl:-mt-48"
+          alt="chair"
+          srcset=""
+        />
+      </div>
+    </div>
+    <!-- products section -->
+    <div
+      class="px-7 py-10 bg-brand-dark flex flex-col gap-10 md:px-12 lg:px-20 xl:px-28"
+    >
+      <div
+        class="flex flex-col items-center gap-7 sm:flex-row sm:justify-between sm:items-center"
+      >
+        <h2 class="font-sans font-semibold text-3xl uppercase text-white">
+          products
+        </h2>
+        <button
+          class="bg-brand-mode py-2 px-5 font-sans text-white text-base font-normal uppercase rounded-md"
+        >
+          view cart
+        </button>
+      </div>
+      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 xl:grid-cols-3">
+        <div class="flex flex-col items-center gap-7">
+          <img class="rounded-md" src="imgs/6.png" alt="chair" />
+          <div class="flex flex-col items-center gap-3">
+            <h3
+              class="font-sans font-semibold text-2xl capitalize text-white text-center"
+            >
+              comfort luxury
+            </h3>
+            <span class="block font-sans font-normal text-brand-mode text-sm"
+              >$43000</span
+            >
+            <button
+              class="bg-brand-mode py-2 px-5 font-sans text-white text-sm font-normal capitalize rounded-md"
+            >
+              add to cart
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-7">
+          <img class="rounded-md" src="imgs/3.png" alt="chair" />
+          <div class="flex flex-col items-center gap-3">
+            <h3
+              class="font-sans font-semibold text-2xl capitalize text-white text-center"
+            >
+              actiont luxury
+            </h3>
+            <span class="block font-sans font-normal text-brand-mode text-sm"
+              >$43000</span
+            >
+            <button
+              class="bg-brand-mode py-2 px-5 font-sans text-white text-sm font-normal capitalize rounded-md"
+            >
+              add to cart
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-7">
+          <img class="rounded-md" src="imgs/4.png" alt="chair" />
+          <div class="flex flex-col items-center gap-3">
+            <h3
+              class="font-sans font-semibold text-2xl capitalize text-white text-center"
+            >
+              medieval luxury
+            </h3>
+            <span class="block font-sans font-normal text-brand-mode text-sm"
+              >$43000</span
+            >
+            <button
+              class="bg-brand-mode py-2 px-5 font-sans text-white text-sm font-normal capitalize rounded-md"
+            >
+              add to cart
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-7">
+          <img class="rounded-md" src="imgs/9.png" alt="chair" />
+          <div class="flex flex-col items-center gap-3">
+            <h3
+              class="font-sans font-semibold text-2xl capitalize text-white text-center"
+            >
+              space luxury
+            </h3>
+            <span class="block font-sans font-normal text-brand-mode text-sm"
+              >$43000</span
+            >
+            <button
+              class="bg-brand-mode py-2 px-5 font-sans text-white text-sm font-normal capitalize rounded-md"
+            >
+              add to cart
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-7">
+          <img class="rounded-md" src="imgs/5.png" alt="chair" />
+          <div class="flex flex-col items-center gap-3">
+            <h3
+              class="font-sans font-semibold text-2xl capitalize text-white text-center"
+            >
+              comfort luxury
+            </h3>
+            <span class="block font-sans font-normal text-brand-mode text-sm"
+              >$43000</span
+            >
+            <button
+              class="bg-brand-mode py-2 px-5 font-sans text-white text-sm font-normal capitalize rounded-md"
+            >
+              add to cart
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-7">
+          <img class="rounded-md" src="imgs/8.png" alt="chair" />
+          <div class="flex flex-col items-center gap-3">
+            <h3
+              class="font-sans font-semibold text-2xl capitalize text-white text-center"
+            >
+              actiont luxury
+            </h3>
+            <span class="block font-sans font-normal text-brand-mode text-sm"
+              >$43000</span
+            >
+            <button
+              class="bg-brand-mode py-2 px-5 font-sans text-white text-sm font-normal capitalize rounded-md"
+            >
+              add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonials section -->
+    <div
+      class="px-7 py-10 bg-brand-dark grid grid-cols-1 gap-7 md:px-12 lg:px-20 xl:px-28 sm:grid-cols-2 lg:grid-cols-5 xl:grid-cols-4"
+    >
+      <div
+        class="bg-brand-darker relative p-8 rounded-md flex flex-col gap-5 sm:order-1 sm:col-span-2 lg:col-span-3 xl:col-span-2"
+      >
+        <img class="absolute top-0 right-0" src="imgs/quotation.png" alt="" />
+        <!-- user details -->
+        <div class="flex flex-row gap-3 items-center">
+          <img class="rounded-full w-14" src="imgs/user.png" alt="" />
+          <div>
+            <h4
+              class="font-sans font-semibold text-brand-light capitalize text-lg"
+            >
+              daniel clifford
+            </h4>
+            <span
+              class="font-sans font-normal text-brand-mode capitalize text-base"
+              >verified buyer</span
+            >
+          </div>
+        </div>
+        <p class="font-sans font-semibold text-white capitalize text-lg">
+          Lorem ipsum dolor sit, amet consectetur adipisicing non porro tempora
+          est alias velit quas culpa corrupti laudantium laboriosam, repellendus
+          adipisci fuga, quisquam cumque cupiditate ipsa inventore.
+        </p>
+        <p class="font-sans font-normal text-brand-light text-base">
+          " Lorem ipsum dolor sit amet consectetur facere nesciunt amet illo
+          consequatur voluptate. Repudiandae beatae officia, reiciendis, veniam
+          eaque quis molestiae repellendus aut, vel quasi odio quisquam
+          consectetur! Delectus rerum molestiae est cupiditate nemo, illum quis
+          distinctio ea tenetur minima repudiandae earum ipsam, laboriosam quod
+          blanditiis."
+        </p>
+      </div>
+      <div
+        class="bg-brand-darker relative p-8 rounded-md flex flex-col gap-5 sm:order-2 lg:col-span-2 xl:col-span-1"
+      >
+        <!-- user details -->
+        <div class="flex flex-row gap-3 items-center">
+          <img class="rounded-full w-14" src="imgs/user.png" alt="" />
+          <div>
+            <h4
+              class="font-sans font-semibold text-brand-light capitalize text-lg"
+            >
+              john clifford
+            </h4>
+            <span
+              class="font-sans font-normal text-brand-mode capitalize text-base"
+              >verified buyer</span
+            >
+          </div>
+        </div>
+        <p class="font-sans font-semibold text-white capitalize text-lg">
+          Lorem ipsum dolor sit, amet conse ctetur adipisicing elit.
+        </p>
+        <p class="font-sans font-normal text-brand-light text-base">
+          " Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam
+          cupiditate nemo, illum quis distinctio ea tenetur minima repudiandae
+          earum ipsam, laboriosam quod blanditiis."
+        </p>
+      </div>
+      <div
+        class="bg-brand-darker relative p-8 rounded-md flex flex-col gap-5 sm:order-4 sm:col-span-2 md:order-3 md:col-span-1 md:row-span-2 lg:col-span-5 xl:col-span-1 xl:row-span-2"
+      >
+        <img
+          class="absolute top-0 right-0 rounded-full"
+          src="imgs/quotation.png"
+          alt=""
+        />
+        <!-- user details -->
+        <div class="flex flex-row gap-3 items-center">
+          <img class="rounded-full w-14" src="imgs/user.png" alt="" />
+          <div>
+            <h4
+              class="font-sans font-semibold text-brand-light capitalize text-lg"
+            >
+              daniel jane
+            </h4>
+            <span
+              class="font-sans font-normal text-brand-mode capitalize text-base"
+              >verified buyer</span
+            >
+          </div>
+        </div>
+        <p class="font-sans font-semibold text-white capitalize text-lg">
+          Lorem ipsum dolor sit, amet consectetur est alias velit quas culpa
+          corrupti laudantium laboriosam, repellendus adipisci fuga, quisquam
+          cumque cupiditate ipsa inventore.
+        </p>
+        <p class="font-sans font-normal text-brand-light text-base">
+          " Lorem ipsum dolor sit amet consectetur facere nesciunt amet illo
+          consectetur facere nesciunt amet illo consectetur facere nesciunt amet
+          illo consectetur facere nesciunt amet illo consequatur voluptate.
+          Repudiandae beatae officia, reiciendis, veniam eaque quis molestiae
+          repellendus aut, vel quasi odio quisquam consectetur! Delectus rerum
+          molestiae est cupiditate nemo, illum quis distinctio ea tenetur minima
+          repudiandae earum ipsam, laboriosam quod blanditiis."
+        </p>
+      </div>
+      <div
+        class="bg-brand-darker relative p-8 rounded-md flex flex-col gap-5 sm:order-3 lg:order-4 lg:col-span-2 xl:col-span-1"
+      >
+        <!-- user details -->
+        <div class="flex flex-row gap-3 items-center">
+          <img class="rounded-full w-14" src="imgs/user.png" alt="" />
+          <div>
+            <h4
+              class="font-sans font-semibold text-brand-light capitalize text-lg"
+            >
+              morgan clifford
+            </h4>
+            <span
+              class="font-sans font-normal text-brand-mode capitalize text-base"
+              >verified buyer</span
+            >
+          </div>
+        </div>
+        <p class="font-sans font-semibold text-white capitalize text-lg">
+          Lorem ipsum dolor sit, amet conse ctetur adipisicing elit.
+        </p>
+        <p class="font-sans font-normal text-brand-light text-base">
+          " Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam
+          cupiditate nemo, illum quis distinctio ea tenetur minima repudiandae
+          earum ipsam, laboriosam quod blanditiis."
+        </p>
+      </div>
+      <div
+        class="bg-brand-darker relative p-8 rounded-md flex flex-col gap-5 sm:order-5 sm:col-span-2 lg:col-span-3 xl:col-span-2"
+      >
+        <img
+          class="absolute top-0 right-0 rounded-full"
+          src="imgs/quotation.png"
+          alt=""
+        />
+        <!-- user details -->
+        <div class="flex flex-row gap-3 items-center">
+          <img class="rounded-full w-14" src="imgs/user.png" alt="" />
+          <div>
+            <h4
+              class="font-sans font-semibold text-brand-light capitalize text-lg"
+            >
+              John smith
+            </h4>
+            <span
+              class="font-sans font-normal text-brand-mode capitalize text-base"
+              >verified buyer</span
+            >
+          </div>
+        </div>
+        <p class="font-sans font-semibold text-white capitalize text-lg">
+          Lorem ipsum dolor sit, amet consectetur tempora est alias velit quas
+          culpa corrupti laudantium laboriosam, repellendus adipisci fuga,
+          quisquam cumque cupiditate ipsa inventore.
+        </p>
+        <p class="font-sans font-normal text-brand-light text-base">
+          " Lorem ipsum dolor sit amet consectetur facere nesciunt amet illo
+          consequatur voluptate. Repudiandae beatae officia, reiciendis, veniam
+          eaque quis molestiae repellendus aut, vel quasi odio quisquam
+          consectetur! Delectus rerum molestiae est cupiditate nemo, illum quis
+          distinctio ea tenetur minima repudiandae earum ipsam, laboriosam quod
+          blanditiis."
+        </p>
+      </div>
+    </div>
+    <!-- newsletter section -->
+    <div
+      class="px-7 py-10 bg-brand-darker flex flex-col items-center gap-7 sm:p-20 md:px-12 lg:px-20 xl:px-72"
+    >
+      <div class="flex flex-col items-center gap-3 lg:gap-5">
+        <h2
+          class="font-sans text-white uppercase text-3xl font-bold text-center"
+        >
+          newletter
+        </h2>
+        <p
+          class="font-sans text-brand-light text-base font-normal text-center xl:px-60"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div
+        class="flex flex-col items-center w-full gap-5 sm:flex-row sm:gap-0 xl:px-32"
+      >
+        <input
+          type="text"
+          placeholder="lailamohammed2023@gmail.com"
+          class="w-full h-12 px-4 bg-brand-dark rounded-md placeholder:text-zinc-400 placeholder:font-sans placeholder:text-sm sm:rounded-r-none"
+        />
+        <a href=""
+          ><button
+            class="bg-brand-mode py-2.5 px-5 font-sans text-white text-base font-normal uppercase rounded-md sm:rounded-l-none"
+          >
+            join
+          </button></a
+        >
+      </div>
+    </div>
+  </body>
+</html>
